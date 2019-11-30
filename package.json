@@ -11,9 +11,7 @@
     "jshint": "^2.8.0"
   },
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint hello.js"
-  },
-  "scripts": {
-  "test-with-coverage": "NODE_ENV=test YOURPACKAGE_COVERAGE=1 mocha --require blanket --reporter mocha-lcov-reporter | codacy-coverage"
-}
+    "test": "./node_modules/jshint/bin/jshint hello.js",
+    "test-with-coverage": "NODE_ENV=test YOURPACKAGE_COVERAGE=1 mocha --require blanket --reporter mocha-lcov-reporter | codacy-coverage"
+  }
 }
